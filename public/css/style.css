@@ -1,0 +1,56 @@
+* {
+    font-family: "Avenir Next forINTUIT","harmonyicons";
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #282828;
+}
+.header-logo{
+    color: #FFF000;
+}
+.header-logo span{
+    display: block;
+    margin-left: 150px;
+    padding-top: 20px;
+    font-size: 48px;
+}
+.main-content{
+    min-height: 490px;
+    background: #FFF000;
+}
+#head-text{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+}
+#search-form{
+    width: 70%;
+    margin: auto;
+}
+.search-result{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+.url{
+    padding: 10px;
+    font-weight: bold;
+}
+.url a{
+    color:#000;
+}
+.content-board{
+    padding: 20px;
+}
+.content-board a{
+    color: #ccc;
+    text-decoration: none;
+}
+.home-link{
+    padding: 10px;
+}
+.home-link a{
+    text-decoration: none;
+    color:black;
+}
