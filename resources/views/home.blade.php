@@ -20,6 +20,7 @@
         <div>
             <div class="search-result">
                 @if(isset($url))
+
                 <div>
                     <p>Your Full URL : Total length of <b>{{strlen($url)}}</b> Character</p>
                     <div class="url">
@@ -29,11 +30,12 @@
                 @endif
                     @if(isset($short_url))
                         <div>
-                            <p>Shorten URL :Total shorted length of <b>{{strlen($short_url)}}</b> Character without Domain Name</p></p>
+                            <p>Shorten URL : Minimum shorted length </p></p>
                             <div class="url">
                                 <a target="_blank" title="click to open" href="{{url('/')}}/go/{{$short_url}}">{{url('/')}}/go/{{$short_url}}</a>
                             </div>
                         </div>
+                        <a target="_blank" title="click to open" href="{{url('/')}}/go/{{$short_url}}">[ Open in new window ]</a>
                     @endif
             </div>
         </div>

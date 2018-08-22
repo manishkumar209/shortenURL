@@ -12,7 +12,8 @@
         </div>
         @yield('content')
         @yield('content-board')
-        <div class="footer"></div>
+        <div class="footer">
+        </div>
     </div>
 </div>
 </body>

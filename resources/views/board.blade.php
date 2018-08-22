@@ -12,12 +12,12 @@
                         <td>S.No</td>
                         <td scope="col">Full URL</td>
                         <td scope="col">Short URL</td>
-                        <td>Most Visit</td>
+                        <td>Most Visited</td>
                     </tr>
                 </thead>
                 <tbody>
                 <?php
-                $count=0;
+                $count=1;
                 ?>
                 @foreach ($url as $b)
                     <tr>
